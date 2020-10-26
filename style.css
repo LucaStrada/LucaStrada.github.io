@@ -1,0 +1,44 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+
+}
+body {
+    margin: 0;
+}
+
+.main{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    width: 50vw;
+    height: 50vh;
+}
+.main-child1{
+    
+    width: 30%;
+    background-color: blue;
+
+}
+.main-child2{
+    padding: 5%;
+    width: 70%;
+    background-color: red;
+
+}
+li{
+    list-style: none;
+    margin-left: 0;
+
+}
+li:not(:last-child){
+    margin-right: 10px;
+}
+
+@media all and (max-width: 500px) {
+    
+}
